@@ -1,0 +1,99 @@
+﻿*{
+    margin:0;
+    padding:0;
+
+}
+
+body {
+    background-image: url('IMAGES/pexels-min-an-1629212.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    text-align:center;
+    background-color:bisque;
+    font-family:Cambria;
+
+}
+
+.lab{
+    margin-left:5%;
+    text-align:center;
+    
+    font-family:Cambria;
+    color:red;
+    
+
+}
+.main {
+    width: 47vw;
+    height: 47vh;
+    display:block;
+    position: relative;
+    
+}
+
+.login_div{
+    border-radius:25px;
+    width:50%;
+    height:100%;
+    text-align:center;
+    align-items:center;
+    background-image:url(IMAGES/pexels-henry-&-co-1939485.jpg);
+    left:0;
+    position:absolute;
+}
+h3{
+    width:30%;
+    margin-left:35%;
+    background-color:black;
+    border-radius:15px;
+    color:white;
+    font-family:Cambria;
+    margin-bottom:8%;
+    margin-top:9%;
+}
+placeholder{
+    font-family:Cambria;
+}
+input[placeholder]{
+    font-family:Cambria;
+}
+input[type=text], input[type=password]{
+    width:80%;
+    height:10%;
+    border-radius:5px;
+    margin-top:0.5%;
+    margin-bottom:0.5%;
+}
+.Login_btn ,.Signup_btn{
+    background-color:lightgray;
+    border-radius:15px;
+    border-bottom-style:double;
+    width:25%;
+    height:11%;
+    margin-top:0.5%;
+}
+.signup_div{
+    width: 50%;
+    height: 100%;
+    text-align:center;
+    align-items: center;
+    border-radius:25px;
+    background-image:url(IMAGES/pexels-oleg-magni-1040473.jpg);
+    right:0;
+    position: absolute;
+}
+
+
+    
